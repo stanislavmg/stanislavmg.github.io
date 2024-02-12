@@ -4,84 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Продукт</a></li>
-                <li><a href="#">Решения</a></li>
-                <li><a href="#">Ресурсы</a></li>
-                <li><a href="#">Предприятия</a></li>
-            </ul>
-        </nav>
-    </header>
     <section>
-        <div class="h1_first">
-            <h1>Место для командной работы</h1>
-            <p class="heroText">
-                Интерактивная онлайн-доска для совместной
-                работы команд — в любое время, в любом месте.
-            </p>
-            <img src="./img/headerimage-without-text 1.png" />
-        </div>
-        <form action="/test" class="heroForm">
-            <div>
-                <label for="email"></label>
-                <input type="email" name="email">
-           </div>
-           <div>
-                <button>Начать бесплатно</button>
-                <p id="free">Всегда бесплатно — кредитная карта не нужна</p>
-            </div>
+        <h1>Свяжитесь со мной</h1>
+        <form action="./test">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <label for="telegram">Telegram</label>
+            <input type="email" name="telegram" id="telegram">
+            <label for="theme">Тема</label>
+            <select name="theme" id="theme">
+                <option value="1">Приобритение курсов</option>
+                <option value="2">Реклама</option>
+                <option value="3">Сотрудничество</option>
+            </select>
+            <label for="comment">Комментарий</label>
+            <input type="text" name="comment" id="comment">
+            <button>Отправить</button>
         </form>
-        <div>
-            <span>45M+ пользователей</span>
-            <span class="imgList">
-            <img src="./img/logo/1.png" />
-            <img src="./img/logo/2.png" />
-            <img src="./img/logo/3.png" />
-            <img src="./img/logo/4.png" />
-            </span>
-        </div>
-        <div class="h2_second">
-            <h2>Работайте вместе, где бы вы не находились</h2>
-            <p class="sectionText">
-                Работая в офисе, удалённо или в гибридном формате,
-                с Miro ваша команда может общаться, сотрудничать и
-                совместно заниматься творчеством в одном пространстве,
-                из любой точки мира.
-            </p>
-            <a href="#">Узнать больше</a><br>
-            <img src="./img/IMAGE(2).png" />
-        </div>
-        <div class="h2_third">
-            <img src="./img/IMAGE(3).png" />
-            <h2>Закрой лишние вкладки - всё уже здесь</h2>
-            <p>
-                Редактируете ли вы документы в Google Docs, работаете
-                над задачами в Jira или созваниваетесь в Zoom, Miro
-                предлагает более 100 интеграций с уже известными и
-                полюбившимися вам инструментами.
-            </p>
-            <a href="#">Узнать больше</a>
-        </div>
     </section>
-    <ul class="checkList">
-        <li>Создавайте вайрфреймы</li>
-        <li>Подключайте заказчиков к процессу дизайна</li>
-        <li>Проводите вовлекающие дизайн-воркшопы</li>
-    </ul>
-    <a href="#">Узнать больше</a>
-    <footer>
-        <a href="#">&#169; 2023 Miro</a>
-        <a href="#">Условия пользования</a>
-        <a href="#">Политика конфиденциальности</a>
-        <a href="#">Управление файлами cookies</a>
-    </footer>
 </body>
 
 </html>
