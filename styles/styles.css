@@ -1,11 +1,24 @@
-* {
-    font-family: Roboto;
+*::selection {
+    background-color: #e0a631;
+    margin: 0;
 }
 
-h1 {
+nav{
+    padding: 33px 50px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+h1, h2{
     font-size: 48px;
     font-weight: 400;
     line-height: 56px;
+    letter-spacing: 1px;
+}
+
+.h1_first h1{
+    width: 285px;
+    height: 168px;
+    margin: 60px 0px 17px 40px;
 }
 
 p {
@@ -20,8 +33,74 @@ p {
 
 .heroText{
     color: #050038;
+    width: 424px;
+    height: 48px;
+    margin: 0px 0px 55px 40px;
 }
 
+input{
+    margin: 0px 0px 0px 40px;
+}
+
+button{
+    background-color: #4262FF;
+    color: #FFF;
+    margin: 10px 0px 8px 40px;
+}
+
+.heroForm input, button{
+    border-radius: 32px;
+    border: 1px solid #9B99AF;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    width: 408px;
+    height: 48px;
+}
+
+#free{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 342px;
+    height: 20px;
+    margin: 0px 0px 0px 40px;
+}
+
+.h2_second h2{
+    width: 454px;
+    height: 168px;
+    margin: 214px 0px 0px 40px;
+}
+
+.h2_second p{
+    width: 436px;
+    height: 120px;
+    margin: 19px 0px 0px 40px;
+}
+
+.h2_second a{
+    width: 133px;
+    height: 24px;
+    margin: 39px 0px 0px 40px; 
+}
+
+.h2_third h2{
+    width: 432px;
+    height: 168px;
+    margin: 183px 63px 0px 705px;
+}
+
+.h2_third p{
+    width: 429px;
+    height: 120px;
+    margin: 19px 66px 0px 705px;
+}
+
+.h2_third a{
+    width: 133px;
+    height: 24px;
+    margin: 39px 362px 0px 705px; 
+}
 
 header, footer {
     font-size: 16px;
@@ -29,7 +108,27 @@ header, footer {
     line-height: 24px;
 }
 
-button{
-    background-color: #4262FF;
-    color: #FFF;
+footer{
+    padding: 47px 40px;
+    background-color: #050038;
+}
+
+footer a{
+    color: white;
+}
+
+header a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+}
+
+li::marker{
+    content: none;
+}
+
+.checkList li::marker{
+    content: url(../img/do.png);
 }
