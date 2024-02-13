@@ -1,8 +1,45 @@
 section{
+    font-family: sans-serif;
     background-color: #1E1F29;
     color: white;
 }
 
+h1{
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: center;
+}
+
+.field{
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.field img{
+    position: absolute;
+    top: 17px;
+    bottom: 17px;
+    left: 16px;
+}
+
 label{
-    display: block;
+    font-size: 12px;
+    line-height: 14.4px;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    bottom: 1px;
+}
+
+input, select, button{
+    color: white;
+    background-color: #2E2D3D;
+    border-radius: 10px;
+    border: none;
+    padding: 27px 48px 12px;
+}
+
+button{
+    background-color: #6C38CC;
+    padding: 12px auto;
 }

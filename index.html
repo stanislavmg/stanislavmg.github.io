@@ -11,19 +11,30 @@
 <body>
     <section>
         <h1>Свяжитесь со мной</h1>
-        <form action="./test">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
-            <label for="telegram">Telegram</label>
-            <input type="email" name="telegram" id="telegram">
-            <label for="theme">Тема</label>
-            <select name="theme" id="theme">
-                <option value="1">Приобритение курсов</option>
-                <option value="2">Реклама</option>
-                <option value="3">Сотрудничество</option>
-            </select>
-            <label for="comment">Комментарий</label>
-            <input type="text" name="comment" id="comment">
+        <form action="#">
+            <div class="field">
+                <img src="./img/message.png" alt="icon mail">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="field">
+                <img src="./img/telegram.png" alt="icon telegram">
+                <label for="telegram">Telegram</label>
+                <input type="email" name="telegram" id="telegram">
+            </div>
+            <div class="field">
+                <img src="./img/topic.png" alt="icon topic">
+                <label for="theme">Тема</label>
+                <select name="theme" id="theme">
+                    <option value="1">Приобритение курсов</option>
+                    <option value="2">Реклама</option>
+                    <option value="3">Сотрудничество</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="comment">Комментарий</label>
+                <input type="text" name="comment" id="comment">
+            </div>
             <button>Отправить</button>
         </form>
     </section>
