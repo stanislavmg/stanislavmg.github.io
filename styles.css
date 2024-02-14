@@ -1,11 +1,19 @@
 
-::marker{
-    list-style: none;
-}
-
 h2{
     margin: 0%;
     position: relative;
+}
+
+h3{
+    margin: 0%;
+}
+
+.contact h1, .contact h3, .contact div, .contact a{
+    text-align: center;
+}
+
+.contact li{
+    list-style-type: none;
 }
 
 span{
