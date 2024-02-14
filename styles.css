@@ -1,31 +1,24 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.contact{
+    margin: 0px;
 }
 
-h1{
-    text-align: center;
-}
-
-.contact ul, p{
-    text-align: center;
-}
-
-li.contact::marker{
-    
+::marker{
+    list-style: none;
 }
 
 h2{
     position: relative;
 }
 
-.link{
-    margin: 0;
+span{
+    display: inline-block;
+    width: 30%;
+    
 }
 
 .work, .summary{
     margin-top: 1px;
     display: inline-block;
-    width: 30%;
 }
 
 h2::before{
