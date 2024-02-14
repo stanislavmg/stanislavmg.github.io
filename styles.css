@@ -1,24 +1,24 @@
-.contact{
-    margin: 0px;
-}
 
 ::marker{
     list-style: none;
 }
 
 h2{
+    margin: 0%;
     position: relative;
 }
 
 span{
     display: inline-block;
-    width: 30%;
+    width: 25%;
+    margin: 10px 0px 10px 40px;
     
 }
 
-.work, .summary{
-    margin-top: 1px;
+.work{
+    width: 50%;
     display: inline-block;
+    margin: 10px 0px 10px 40px;
 }
 
 h2::before{
