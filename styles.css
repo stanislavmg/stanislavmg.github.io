@@ -5,15 +5,19 @@ h2{
 }
 
 h3{
-    margin: 0%;
+    margin: 4px 0px;
 }
 
-.contact h1, .contact h3, .contact div, .contact a{
+.contact h1, .contact h3, .contact div{
     text-align: center;
 }
-
-.contact li{
-    list-style-type: none;
+.contact {
+    position: relative;
+}
+.contact img{
+    width: 17px;
+    height: 17px;
+    position: absolute;
 }
 
 span{
@@ -23,8 +27,14 @@ span{
     
 }
 
+.summary span{
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
 .work{
-    width: 50%;
+    width: 40%;
+    height: 192px;
     display: inline-block;
     margin: 10px 0px 10px 40px;
 }
