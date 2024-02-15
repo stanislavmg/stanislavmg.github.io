@@ -11,9 +11,11 @@ h3{
 .contact h1, .contact h3, .contact div{
     text-align: center;
 }
+
 .contact {
     position: relative;
 }
+
 .contact img{
     width: 17px;
     height: 17px;
