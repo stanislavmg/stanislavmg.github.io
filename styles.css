@@ -8,12 +8,9 @@ h3{
     margin: 4px 0px;
 }
 
-.contact h1, .contact h3, .contact div{
-    text-align: center;
-}
-
 .contact {
     position: relative;
+    text-align: center;
 }
 
 .contact img{
@@ -23,25 +20,22 @@ h3{
 }
 
 span{
-    display: inline-block;
     width: 25%;
-    margin: 10px 0px 10px 40px;
-    
 }
 
-.summary span{
-    margin-bottom: 100px;
+.summary{
     display: inline-block;
+    width: 25%;
+    height: 25%;
 }
 
 .work{
     width: 40%;
     height: 192px;
     display: inline-block;
-    margin: 10px 0px 10px 40px;
 }
 
-h2::before{
+/* h2::before{
     content:" ";
     height: 2px;
     width: 100%;
@@ -49,4 +43,4 @@ h2::before{
     top: 100%;
     left: 0;
     background: black;
-}
+} */
