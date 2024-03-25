@@ -32,7 +32,7 @@ github_username:  stanislavmg
 # Build settings
 lsi: false
 safe: true
-source: [/stanislavmg/stanislavmg.github.io]
+source: [/]
 incremental: false
 highlighter: rouge
 gist:
