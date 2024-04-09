@@ -3,9 +3,9 @@
 
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/ru/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     
-    <language>ru</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru</language><atom:link href="http://localhost:1313/ru/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

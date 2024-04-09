@@ -1,4 +1,37 @@
 baseURL = 'https://stanislavmg.github.io/'
-languageCode = 'en-us'
+languageCode = 'ru'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'kaslaanka'
+
+[params]
+sitename = "Stanislav Goremykin Blog"
+copyrights = "stanislavgm"
+defaultList = "global"
+paginationLen = 3
+projectsURL = "https://stanislavmg.github.io/"
+brief_about = "<center>Блог о компьютерной ерунде</center>"
+
+[[menu.primary]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.primary]]
+name = "CV"
+url = "/about"
+weight = 2
+
+[[menu.primary]]
+name = "GitHub"
+url = "https://github.com/stanislavmg/"
+weight = 3
+
+[[menu.primary]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/stanislav-goremykin-195889254/"
+weight = 4
+
+  [[params.myprojects]]
+  name = "School 42 Piscine"
+  description = "26-ти дневный интенсив для поступления в международную школу программирования"
+  url = "https://github.com/stanislavmg/Piscine-C-Ecole-42.git"
