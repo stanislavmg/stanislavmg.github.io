@@ -1,4 +1,5 @@
-baseURL: https://stanislavmg.github.io/
+sitename: "Stanislav Goremykin Blog"
+baseURL: "/"
 languageCode: en-us
 
 taxonomies:
@@ -6,25 +7,24 @@ taxonomies:
   tag: tags
 
 params:
-  sitename: Stanislav Goremykin Blog
   copyrights: stanislavgm
   defaultList: global
   paginationLen: 3
   projectsURL: https://stanislavmg.github.io/
-  brief_about: "Заметки о программировании и информационных технологиях"
+  brief_about: <center>Заметки о программировании и информационных технологиях</center>
 
 menus:
   main:
-  - name: Home
+  - name: "Home"
     url: /
     weight: 1
-  - name: CV
-    url: /about
+  - name: "CV"
+    url: https://gohugo.io/installation/linux/
     weight: 2
-  - name: GitHub
+  - name: "GitHub"
     url: https://github.com/stanislavmg/
     weight: 3
-  - name: LinkedIn
+  - name: "LinkedIn"
     url: https://www.linkedin.com/in/stanislav-goremykin-195889254/
     weight: 4
 myprojects:
