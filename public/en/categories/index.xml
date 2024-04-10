@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Stanislavgm Blog</title>
-    <link>/categories/</link>
+    <link>/en/categories/</link>
     <description>Recent content in Categories on Stanislavgm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

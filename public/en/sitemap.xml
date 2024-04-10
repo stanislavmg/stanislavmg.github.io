@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-	xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
-	rel="alternate"
-	hreflang="ru"
-	href="http://localhost:1313/ru/categories/"
-	/>
+                rel="alternate"
+                hreflang="ru"
+                href="/categories/"
+                />
     <xhtml:link
-	rel="alternate"
-	hreflang="en"
-	href="http://localhost:1313/categories/"
-	/>
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>/en/</loc>
     <xhtml:link
-	rel="alternate"
-	hreflang="ru"
-	href="http://localhost:1313/ru/"
-	/>
+                rel="alternate"
+                hreflang="ru"
+                href="/"
+                />
     <xhtml:link
-	rel="alternate"
-	hreflang="en"
-	href="http://localhost:1313/"
-	/>
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>/en/tags/</loc>
     <xhtml:link
-	rel="alternate"
-	hreflang="ru"
-	href="http://localhost:1313/ru/tags/"
-	/>
+                rel="alternate"
+                hreflang="ru"
+                href="/tags/"
+                />
     <xhtml:link
-	rel="alternate"
-	hreflang="en"
-	href="http://localhost:1313/tags/"
-	/>
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
   </url>
 </urlset>

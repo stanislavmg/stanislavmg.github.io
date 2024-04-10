@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stanislavgm Blog</title>
-    <link>/</link>
+    <link>/en/</link>
     <description>Recent content on Stanislavgm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
