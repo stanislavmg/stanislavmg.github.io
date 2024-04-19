@@ -1,0 +1,24 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Example Lekh Site"
+theme = "lekh"
+
+[params]
+Name = "Stanislavmg"
+About = "Заметки о программировании и информационных технологиях"
+Email = "stanislavgoremykin.ra@gmail.com"
+Resume = "/content/resume.md" # Add the filename with file extension.
+PostLimit = 4 # Sets the number of posts to display on the front page
+GoatCounterCode = ""
+
+[[params.profiles]]
+name = "GitHub"
+url = "https://github.com/stanislavmg"
+
+[[params.profiles]]
+name = "Telegram"
+url = "https://t.me/stanislavgm"
+
+[[params.profiles]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/stanislav-goremykin-195889254/"

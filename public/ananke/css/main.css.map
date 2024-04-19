@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/stanislav/Desktop/stanislavmg.github.io",
+	"sourceRoot": "/home/stanislav/stanislavmg.github.io",
 	"sources": [
 		"ananke/css/main.css"
 	],

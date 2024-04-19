@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Stanislavgm Blog</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Stanislavgm Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts on Example Lekh Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Example Lekh Site</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Apr 2024 16:25:26 +0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Админ заметки</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 19 Apr 2024 16:25:26 +0400</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Командая строка windows Команды диагностики сети: ping Проверка доступности хоста, измерение времени отклика от хоста, проверить разрешается ли доменное имя. netstat Просмотр активных сетевых соединений и состояния портов по каждому процессу, просмотр статистики по UDP и TCP(сколько пакетов получено, отправлено, сколько открыто соединений), просмотр таблицы маршрутизации Основные статусы портов: LISTEN - в режиме прослушивания ESTABLISHED - соединение по порту установлено CLOSED - порт закрыт telnet Установка соединения по протоколу telnet. Устанавливает TCP сессию к хосту на указанный порт, если такое соединение возможно.</description>
+    </item>
   </channel>
 </rss>
