@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Example Lekh Site"
-theme = "lekh"
+theme = "test"
 
 [params]
 Name = "Stanislavmg"
