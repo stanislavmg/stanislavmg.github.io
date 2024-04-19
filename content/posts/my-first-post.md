@@ -1,7 +1,7 @@
 +++
 title = 'Админ заметки'
 date = 2024-04-19T16:25:26+04:00
-draft = true
+draft = false
 +++
 # Командая строка windows
 
