@@ -4,10 +4,17 @@
     <title>Example Lekh Site</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Example Lekh Site</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2024 16:25:26 +0400</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 16:27:55 +0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>О сайте</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 03 May 2024 16:27:55 +0400</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Сайт создан для хранения заметок и удобному доступу к ним по необходимости. Заметки не несут цели донести кому-либо идеи или научить чему-либо, а потому призываю воспринимать все, что написано здесь через призму критического восприятия.&#xA;Цель заметок для меня самообразовательная - научиться синтезировать информацию в форму краткого конспекта для более глубокого понимая темы и эффективного запоминания. Убежден, что истинные знания возможно получить только через самостоятельное осмысление.&#xA;Не исключаю наличие людей читающих и интересующихся.</description>
+    </item>
     <item>
       <title>Админ заметки</title>
       <link>http://localhost:1313/posts/my-first-post/</link>

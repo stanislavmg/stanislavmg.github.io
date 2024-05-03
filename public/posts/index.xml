@@ -4,7 +4,7 @@
     <title>Posts on Example Lekh Site</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Example Lekh Site</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Apr 2024 16:25:26 +0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />

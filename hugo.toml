@@ -7,17 +7,17 @@ theme = "test"
 Name = "Stanislavmg"
 About = "Заметки о программировании и информационных технологиях"
 Email = "stanislavgoremykin.ra@gmail.com"
-Resume = "/content/resume.md" # Add the filename with file extension.
+Resume = "/index.html" # Add the filename with file extension.
 PostLimit = 4 # Sets the number of posts to display on the front page
 GoatCounterCode = ""
 
 [[params.profiles]]
-name = "GitHub"
-url = "https://github.com/stanislavmg"
+name = "О сайте"
+url = "/about/index.html"
 
 [[params.profiles]]
-name = "Telegram"
-url = "https://t.me/stanislavgm"
+name = "GitHub"
+url = "https://github.com/stanislavmg"
 
 [[params.profiles]]
 name = "LinkedIn"
