@@ -1,19 +1,20 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Example Lekh Site"
+sectionPagesMenu = 'main'
 theme = "test"
 
 [params]
-Name = "Stanislavmg"
-About = "Заметки о программировании и информационных технологиях"
+Name = "Заметки о программировании и информационных технологиях"
+About = ""
 Email = "stanislavgoremykin.ra@gmail.com"
 Resume = "/index.html" # Add the filename with file extension.
 PostLimit = 4 # Sets the number of posts to display on the front page
 GoatCounterCode = ""
 
-[[params.profiles]]
-name = "О сайте"
-url = "/about/index.html"
+# [[params.profiles]]
+# name = "О сайте"
+# url = "/about/index.html"
 
 [[params.profiles]]
 name = "GitHub"
